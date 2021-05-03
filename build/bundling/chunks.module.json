@@ -1,0 +1,121 @@
+{
+  "errors": [
+    "./node_modules/@frontity/core/src/client/index.tsx\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\node_modules\\@frontity\\core\\src\\client\\index.tsx'\n @ ./build/bundling/entry-points/my-wordpress-theme/client.ts 1:0-46 1:468-474 1:505-1232 1:682-1231 1:700-736\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/my-wordpress-theme/client.ts",
+    "./node_modules/@frontity/html2react/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\node_modules\\@frontity\\html2react\\src\\index.ts'\n @ ./build/bundling/entry-points/my-wordpress-theme/client.ts 1:253-326 1:423-451 1:505-1232 1:682-1231 1:1023-1064\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/my-wordpress-theme/client.ts",
+    "./node_modules/@frontity/tiny-router/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\node_modules\\@frontity\\tiny-router\\src\\index.ts'\n @ ./build/bundling/entry-points/my-wordpress-theme/client.ts 1:178-253 1:393-422 1:505-1232 1:682-1231 1:937-979\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/my-wordpress-theme/client.ts",
+    "./node_modules/@frontity/wp-source/src/index.ts\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\node_modules\\@frontity\\wp-source\\src\\index.ts'\n @ ./build/bundling/entry-points/my-wordpress-theme/client.ts 1:107-178 1:365-392 1:505-1232 1:682-1231 1:852-892\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/my-wordpress-theme/client.ts",
+    "./packages/jsnation-theme/src/index.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\packages\\jsnation-theme\\src\\index.js'\n @ ./build/bundling/entry-points/my-wordpress-theme/client.ts 1:46-107 1:342-364 1:505-1232 1:682-1231 1:774-809\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/my-wordpress-theme/client.ts",
+    "(webpack)-hot-middleware/client.js\nModule build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\node_modules\\webpack-hot-middleware\\client.js'\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/my-wordpress-theme/client.ts my-wordpress-theme[0]"
+  ],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "726f390220b5066ad6ba",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\build\\static",
+  "assetsByChunkName": {
+    "my-wordpress-theme": [
+      "my-wordpress-theme.module.js",
+      "my-wordpress-theme.c89b78a9ca827f24b3dd.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "c89b78a9ca827f24b3dd.hot-update.json",
+      "size": 60,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "my-wordpress-theme.c89b78a9ca827f24b3dd.hot-update.js",
+      "size": 14248,
+      "chunks": [
+        "my-wordpress-theme"
+      ],
+      "chunkNames": [
+        "my-wordpress-theme"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "my-wordpress-theme.module.js",
+      "size": 46045,
+      "chunks": [
+        "my-wordpress-theme"
+      ],
+      "chunkNames": [
+        "my-wordpress-theme"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "my-wordpress-theme": {
+      "chunks": [
+        "my-wordpress-theme"
+      ],
+      "assets": [
+        "my-wordpress-theme.module.js",
+        "my-wordpress-theme.c89b78a9ca827f24b3dd.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "my-wordpress-theme": {
+      "chunks": [
+        "my-wordpress-theme"
+      ],
+      "assets": [
+        "my-wordpress-theme.module.js",
+        "my-wordpress-theme.c89b78a9ca827f24b3dd.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "my-wordpress-theme",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 2690,
+      "names": [
+        "my-wordpress-theme"
+      ],
+      "files": [
+        "my-wordpress-theme.module.js",
+        "my-wordpress-theme.c89b78a9ca827f24b3dd.hot-update.js"
+      ],
+      "hash": "6b235d75df90e663a2b5",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
