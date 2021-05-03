@@ -14,13 +14,13 @@ const PostCategories = ({ categories }) => {
     <EntryCategories>
       <ScreenReaderText>Categories</ScreenReaderText>
 
-      {/* <EntryCategoriesInner>
+      <EntryCategoriesInner>
         {postCategories.map((category) => (
           <CategoryTag key={category.id} link={category.link}>
             {decode(category.name)}
           </CategoryTag>
         ))}
-      </EntryCategoriesInner> */}
+      </EntryCategoriesInner>
 
     </EntryCategories>
   );

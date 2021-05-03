@@ -2,16 +2,30 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "acc7d3d111591c1fb1ac",
+  "hash": "0d45f84d0aac5b4a8543",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\build\\static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
-    "archive~post": "archive~post.module.js",
+    "archive~post": [
+      "archive~post.module.js",
+      "archive~post.860fa1751049d12eaaff.hot-update.js"
+    ],
     "my-wordpress-theme": "my-wordpress-theme.module.js",
     "post": "post.module.js"
   },
   "assets": [
+    {
+      "name": "860fa1751049d12eaaff.hot-update.json",
+      "size": 54,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
     {
       "name": "archive.module.js",
       "size": 75387,
@@ -25,8 +39,23 @@
       "emitted": false
     },
     {
+      "name": "archive~post.860fa1751049d12eaaff.hot-update.js",
+      "size": 15507,
+      "chunks": [
+        "archive~post"
+      ],
+      "chunkNames": [
+        "archive~post"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "archive~post.module.js",
-      "size": 142856,
+      "size": 143448,
       "chunks": [
         "archive~post"
       ],
@@ -136,8 +165,7 @@
         "my-wordpress-theme"
       ],
       "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "emitted": false
     },
     {
       "name": "post.module.js",
@@ -149,7 +177,7 @@
         "post"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -183,6 +211,7 @@
       ],
       "assets": [
         "archive~post.module.js",
+        "archive~post.860fa1751049d12eaaff.hot-update.js",
         "archive.module.js"
       ],
       "children": {},
@@ -195,6 +224,7 @@
       ],
       "assets": [
         "archive~post.module.js",
+        "archive~post.860fa1751049d12eaaff.hot-update.js",
         "post.module.js"
       ],
       "children": {},
@@ -229,18 +259,19 @@
     },
     {
       "id": "archive~post",
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "reason": "split chunk (cache group: default) (name: archive~post)",
-      "size": 103397,
+      "size": 103568,
       "names": [
         "archive~post"
       ],
       "files": [
-        "archive~post.module.js"
+        "archive~post.module.js",
+        "archive~post.860fa1751049d12eaaff.hot-update.js"
       ],
-      "hash": "7f4bb91989428b82d4a4",
+      "hash": "8d4e535db1529404d065",
       "siblings": [
         "archive",
         "post"
@@ -256,7 +287,7 @@
     },
     {
       "id": "my-wordpress-theme",
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
       "size": 2110176,
