@@ -2,16 +2,45 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "8d95b781cff08efeb409",
+  "hash": "f0ba7fb30cedab206504",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\Andre\\Desktop\\websites\\my-wordpress-theme\\build\\static",
   "assetsByChunkName": {
-    "my-wordpress-theme": "my-wordpress-theme.module.js"
+    "my-wordpress-theme": [
+      "my-wordpress-theme.module.js",
+      "my-wordpress-theme.615d8b12405cdfbb8f5f.hot-update.js"
+    ]
   },
   "assets": [
     {
+      "name": "615d8b12405cdfbb8f5f.hot-update.json",
+      "size": 60,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "my-wordpress-theme.615d8b12405cdfbb8f5f.hot-update.js",
+      "size": 3184,
+      "chunks": [
+        "my-wordpress-theme"
+      ],
+      "chunkNames": [
+        "my-wordpress-theme"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "my-wordpress-theme.module.js",
-      "size": 6156091,
+      "size": 6156029,
       "chunks": [
         "my-wordpress-theme"
       ],
@@ -19,8 +48,7 @@
         "my-wordpress-theme"
       ],
       "info": {},
-      "emitted": false,
-      "isOverSizeLimit": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -30,7 +58,8 @@
         "my-wordpress-theme"
       ],
       "assets": [
-        "my-wordpress-theme.module.js"
+        "my-wordpress-theme.module.js",
+        "my-wordpress-theme.615d8b12405cdfbb8f5f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -42,7 +71,8 @@
         "my-wordpress-theme"
       ],
       "assets": [
-        "my-wordpress-theme.module.js"
+        "my-wordpress-theme.module.js",
+        "my-wordpress-theme.615d8b12405cdfbb8f5f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -51,17 +81,18 @@
   "chunks": [
     {
       "id": "my-wordpress-theme",
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1520416,
+      "size": 1520390,
       "names": [
         "my-wordpress-theme"
       ],
       "files": [
-        "my-wordpress-theme.module.js"
+        "my-wordpress-theme.module.js",
+        "my-wordpress-theme.615d8b12405cdfbb8f5f.hot-update.js"
       ],
-      "hash": "68219a53ec30d7c4f69c",
+      "hash": "8d2bec79abd648729dad",
       "siblings": [],
       "parents": [],
       "children": [],

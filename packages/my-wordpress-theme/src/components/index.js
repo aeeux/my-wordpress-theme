@@ -4,8 +4,8 @@ import { connect } from "frontity";
 const Root = ({ state }) => {
     return (
       <>
-          <h1>Frontitty in my punini</h1>
-          <h2>Frontitty in my punini</h2>
+          <h1>Frontitty</h1>
+          <h2>Frontitty</h2>
           <p>Current URL: {state.router.link}</p>
       </>
     );
